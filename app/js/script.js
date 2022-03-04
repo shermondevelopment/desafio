@@ -35,4 +35,3 @@ const documents = (element) => {
 }
 
 captureLocation()
-defineLayoutOfTimeAndScreen()
