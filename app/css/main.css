@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #A7BAE5;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+}
+
+.main--content {
+  width: 100%;
+  max-width: 700px;
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.figure-tempo {
+  display: flex;
+}
+
+.list-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sub-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+
+}
+
+.title-temperature {
+  font-size: 36px;
+  color: #fff;
+}
+
+.title-rain, .title-umidade, .title-wind{
+  color: #fff;
+  font-size: 12px;
+}
+.title-city {
+  font-size: 45px;
+  margin:0;
+  color: #fff;
+}
+.title-descriptor {
+  color: #fff;
+}
